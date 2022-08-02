@@ -1,0 +1,272 @@
+body {
+   width: 100%;
+   height: auto;
+   background: url('../images/bg.png') repeat;
+   background-size: cover;
+}
+@font-face {
+   font-family: "font";
+   src: url('../font/LeviReBrushed.ttf');
+}
+#SetyawanXD {
+   width: 950px;
+   height: auto;
+   margin: 10px;
+   padding-top: 20px;
+   padding-bottom: 10px;
+   background: rgba(0,0,0, 0.2);
+   text-align: center;
+}
+.gambar-atas {
+   width: 90%;
+}
+.gambar-kiri {
+   width: 100%;
+   height: 82%;
+   border-bottom: 5px solid #fff;
+   border-top-right-radius: 45px;
+}
+.gambar-kanan {
+   width: 100%;
+   height: 82%;
+   border-bottom: 5px solid #fff;
+   border-top-left-radius: 45px;
+}
+.detol-kiri {
+   width: 380px;
+   height: 500px;
+   display: inline-block;
+   margin: 20px;
+   background: rgba(0,0,0, 0);
+   border: 5px solid #fff;
+   border-top-left-radius: 0px;
+   border-top-right-radius: 50px;
+   border-bottom-right-radius: 0px;
+   border-bottom-left-radius: 50px;
+   color: white;
+}
+.detol-kanan {
+   width: 380px;
+   height: 500px;
+   display: inline-block;
+   margin: 20px;
+   background: rgba(0,0,0, 0);
+   border: 5px solid #fff;
+   border-top-left-radius: 50px;
+   border-top-right-radius: 0px;
+   border-bottom-right-radius: 50px;
+   border-bottom-left-radius: 0px;
+   color: white;
+}
+.btn {
+   font-family: "font";
+   width: 100%;
+   height: 18%;
+   background: rgba(0,0,0, 0);
+   border-top: 0px solid rgba(0,0,0, 0);
+   border-bottom: 0px solid rgba(0,0,0, 0);
+   border-left: 0px solid rgba(0,0,0, 0);
+   border-right: 0px solid rgba(0,0,0, 0);
+   font-size: 3em;
+   color: white;
+}
+.btn-detail {
+   font-family: "font";
+   width: 50%;
+   height: 90px;
+   margin-bottom: 10px;
+   background: rgba(0,0,0, 0);
+   border-top: 5px solid #fff;
+   border-bottom: 5px solid #fff;
+   border-left: 5px solid #fff;
+   border-right: 5px solid #fff;
+   font-size: 3.5em;
+   color: white;
+}
+.title {
+   font-family: "font";
+   font-size: 3.2em;
+   color: white;
+}
+#menu {
+   width: 100%;
+   height: 100%;
+   display: block;
+   position: fixed;
+   left: 0;
+   right: 0;
+   top: 0;
+   bottom: 0;
+   margin: auto;
+   background: url('../images/bg.png') repeat;
+   background-size: cover;
+   text-align: center;
+}
+.detol-menu {
+   width: 850px;
+   height: 800px;
+   display: inline-block;
+   margin: 20px;
+   background: rgba(0,0,0, 0);
+   border: 5px solid #fff;
+   border-radius: 5px;
+   color: white;
+   text-align: center;
+}
+.detol-detail {
+   width: 850px;
+   height: auto;
+   display: inline-block;
+   margin: 20px;
+   background: rgba(0,0,0, 0);
+   border: 5px solid #fff;
+   border-radius: 5px;
+   color: white;
+   text-align: center;
+}
+.title-menu {
+   font-family: "font";
+   margin-top: 20px;
+   margin-bottom: 0px;
+   font-size: 3.3em;
+   color: white;
+}
+.gambar-menu {
+   width: 100%;
+   height: 75%;
+   border-top: 5px solid #fff;
+   border-bottom: 5px solid #fff;
+}
+.btn-kiri {
+   font-family: "font";
+   width: 50%;
+   height: 11%;
+   display: inline-block;
+   background: rgba(0,0,0, 0);
+   border-top: 0px solid rgba(0,0,0, 0);
+   border-bottom: 0px solid rgba(0,0,0, 0);
+   border-left: 0px solid rgba(0,0,0, 0);
+   border-right: 5px solid #fff;
+   font-size: 3em;
+   color: white;
+}
+.btn-kanan {
+   font-family: "font";
+   width: 49%;
+   height: 11%;
+   display: inline-block;
+   background: rgba(0,0,0, 0);
+   border-top: 0px solid rgba(0,0,0, 0);
+   border-bottom: 0px solid rgba(0,0,0, 0);
+   border-left: 0px solid rgba(0,0,0, 0);
+   border-right: 0px solid rgba(0,0,0, 0);
+   font-size: 3em;
+   color: white;
+}
+.title-login {
+   font-family: "font";
+   margin-top: 20px;
+   margin-bottom: 0px;
+   border-bottom: 5px solid #fff;
+   font-size: 3.3em;
+   color: white;
+}
+.login-kiri {
+   width: 49%;
+   height: 75%;
+   display: inline-block;
+   background: rgba(0,0,0, 0);
+   border-top: 0px solid rgba(0,0,0, 0);
+   border-bottom: 0px solid #fff;
+   border-left: 0px solid rgba(0,0,0, 0);
+   border-right: 5px solid #fff;
+}
+.login-kanan {
+   width: 48%;
+   height: 75%;
+   display: inline-block;
+   background: rgba(0,0,0, 0);
+   border-top: 0px solid rgba(0,0,0, 0);
+   border-bottom: 0px solid #fff;
+   border-left: 5px solid rgba(0,0,0, 0);
+   border-right: 0px solid rgba(0,0,0, 0);
+}
+.gambar-login-kiri {
+   width: 90%;
+   margin-top: 110px;
+   border-radius: 30px;
+}
+.gambar-login-kanan {
+   width: 92%;
+   margin-top: 110px;
+   border-radius: 30px;
+}
+.btn-login-kiri {
+   font-family: "font";
+   width: 50%;
+   height: 13%;
+   display: inline-block;
+   background: rgba(0,0,0, 0);
+   border-top: 5px solid #fff;
+   border-bottom: 0px solid rgba(0,0,0, 0);
+   border-left: 0px solid rgba(0,0,0, 0);
+   border-right: 5px solid #fff;
+   font-size: 3em;
+   color: white;
+}
+.btn-login-kanan {
+   font-family: "font";
+   width: 49%;
+   height: 13%;
+   display: inline-block;
+   background: rgba(0,0,0, 0);
+   border-top: 5px solid #fff;
+   border-bottom: 0px solid rgba(0,0,0, 0);
+   border-left: 0px solid rgba(0,0,0, 0);
+   border-right: 0px solid #fff;
+   font-size: 3em;
+   color: white;
+}
+ 
+div.artikel{
+    padding:10px 22px 0;
+    color: #fff;
+}
+ 
+div.artikel div.grup{
+    margin: 10px 10px;
+}
+ 
+div.artikel div.grup label,
+div.artikel div.grup select,
+div.artikel div.grup input{
+    display: block;
+}
+ 
+div.artikel div.grup label{
+    font-size: 40px;
+    margin-bottom: 20px;
+    text-align: left;
+}
+ 
+div.artikel div.grup input[type="text"],
+div.artikel div.grup input[type="number"],
+div.artikel div.grup input[type="password"]{
+    width: 97%;
+    height: 120px;
+    padding: 0 10px;
+    font-size: 50px;
+    background: rgba(0,0,0, 0.2);
+    border: 1px solid #fff;
+    color: #fff;
+}
+ 
+div.artikel div.grup select{
+    width: 99.8%;
+    height: 120px;
+    padding: 0 10px;
+    font-size: 50px;
+    background: rgba(0,0,0, 0.2);
+    border: 1px solid #fff;
+    color: #fff;
+}
